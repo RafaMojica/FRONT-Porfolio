@@ -1,0 +1,56 @@
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  height: 110px;
+}
+
+.navbar_menu {
+  display: flex;
+  ul {
+    display: flex;
+    gap: 4.5rem;
+    li {
+      font-size: 2.3rem;
+      list-style: none;
+    }
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      color: $color_one;
+      text-decoration: none;
+      &:hover {
+        color: $color_main;
+      }
+    }
+  }
+}
+
+.navbar_icons {
+  display: flex;
+  gap: 2rem;
+  font-size: 2.5rem;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: $color_main;
+  }
+}
+
+.navbar_logo {
+  display: flex;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  img {
+    height: 3.5rem;
+  }
+}
